@@ -14,30 +14,34 @@ a {
 header {
     height: 115px;
     margin: 0 auto;
-    background: #efefef;
+    background: #463d3d;
 }
-h2 {
-    margin-top: 0;
-    padding-left: 30px;
-    font-size: 30px;
+.logo {
     float: left;
+    margin-top: 20px;
+    padding-left: 20px;
+    font-size: 28px;
 }
-h2 a {
-    color: rgba(52, 11, 8, 0.46);
+.logo a {
+    font-family: 'Open Sans', sans-serif;
+
+    color: rgb(171, 167, 167);
 }
-h2 a:hover {
+.logo a:hover {
     color: #231118;
     transition: 1s;
 }
-h2 a span {
+.logo a span {
     color: red;
 }
-p {
-    padding-left: 35px;
+.developer {
     float: left;
+    margin-top: 54px;
+    margin-left: -171px;
+    color: #c7c7c7;
 }
 .menu {
-    margin-top: -32px;
+    margin-top: 20px;
     float: right;
     font-size: 21px;
 }
@@ -56,11 +60,11 @@ ul li {
 }
 .top-menu li a {
     display: block;
-    color: rgba(52, 11, 8, 0.46);
+    color: rgb(171, 167, 167);
 
 }
 .top-menu li a:hover {
-    color: #231118;
+    color: #a60c19;
     transition: 1s;
 }
 .social {
@@ -68,21 +72,17 @@ ul li {
     margin: 0 auto;
     margin-top: -52px
 }
-.social-button {
-    max-width: 470px;
-    margin: 0 auto;
-    float: left;
+.fa {
+    font-size: 21px;
 }
 .social a {
-    margin-right: 34px;
+    margin-right: 44px;
+    color: grey;
 }
-.social img:hover {
-    background-color: #fff;
+.social a:hover {
+    color: #000;
 }
-.social img {
-    width: 33px;
-    opacity: 0.5;
-}
+
 
 /** ==== CONTAINER  ==== **/
 
